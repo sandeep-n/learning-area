@@ -7,3 +7,12 @@ The one exception is the [Server-side website programming](https://developer.moz
 
 * https://github.com/mdn/express-locallibrary-tutorial
 * https://github.com/mdn/django-locallibrary-tutorial
+
+Testing out some code here...
+
+```haskell
+partialSum :: [Int] -> Int
+partialSum [] = []
+partialSum [x] = [x]
+partialSum (x:xs) = [] + partialSum ([x + head xs] ++ tail xs)
+```
